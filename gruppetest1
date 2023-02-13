@@ -7,4 +7,17 @@
     <title>Guppe-test</title>
     <link rel="stylesheet" href="gruppe-test.css">
     </head>
-    </html>
+
+
+<body>
+    <nav>
+  <ul>
+    <li><a href="#">Hjem</a></li>
+    <li><a href="#">Om Os</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+    </nav>
+<body>
+
+
+  </html>
