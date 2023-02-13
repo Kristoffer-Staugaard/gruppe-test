@@ -24,3 +24,68 @@ nav a {
 nav a:hover {
   background-color: #555;
 }
+
+
+
+/* Body styling */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #f0f0f0;
+  }
+
+  /* Container styling */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Header styling */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    color: #006699;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* Content styling */
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+  }
+
+  .content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    .content {
+      display: block;
+    }
+
+    .content img {
+      margin-bottom: 20px;
+    }
+  }
